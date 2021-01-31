@@ -1,0 +1,47 @@
+world	0794530W	0792630W	381000N	383000N 
+import	./VA_Monterey.txt 
+debug	world 
+debug	quad 
+debug	hash 
+what_is_at	382812N	0793156W 
+debug	pool 
+what_is	Church	VA 
+what_is	Central Church	VA 
+what_is	Town of Monterey	VA 
+what_is	Smith Field	VA 
+what_is	Smith Field	CO 
+debug	pool 
+what_is_at	382812N	0793156W 
+debug	pool 
+what_is_at	381816N	0793700W 
+what_is_at	381816N	0793708W 
+what_is_at	381612N	0793256W 
+what_is_at	382951N	0793238W 
+what_is_at	382856N	0793031W 
+what_is_in	382812N	0793156W	60	90 
+what_is_in	382012N	0792330W	60	90 
+what_is_in	382148N	0793109W	15	15 
+what_is_in	-long	382148N	0793109W	15	15 
+what_is_in	382148N	0793109W	60	60 
+what_is_in	382148N	0793109W	120	120 
+what_is_in	382148N	0793109W	180	180 
+what_is_in	-long	382148N	0793109W	180	180 
+what_is_in	-filter	structure	382600N	0793310W	120	120 
+what_is_in	-filter	water	382850N	0793030W	120	240 
+what_is_in	-filter	pop	382000N	0793530W	3600	3600 
+debug	pool 
+import	./VA_Bath.txt 
+debug	pool 
+quit 
+import	CO_All.txt 
+what_is	Lincoln	CO 
+what_is	Lincoln	NM 
+what_is_in	365800N	1043030W	720	45 
+what_is_in	-filter	water	370000N	1040000W	600	600 
+what_is_in	-filter	pop	370000N	1040000W	600	600 
+what_is_in	-filter	structure	370000N	1040000W	600	600 
+what_is	Slab Mill Gulch	CO 
+what_is	Kemper School	CO 
+what_is_at	380806N	1073426W 
+what_is_at	371010N	1043002W 
+what_is_at	402906N	1064954W 
